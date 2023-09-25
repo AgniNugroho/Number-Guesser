@@ -5,7 +5,7 @@ import time as t
 
 def password():
     database = {
-        'NobFrostt':'P0314003101778'
+        'Your Username':'Your Password'
     }
 
     os.system('cls')
