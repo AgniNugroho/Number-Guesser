@@ -1,0 +1,4 @@
+1.0 -> Initial Build
+1.1 -> Added hard mode and custom mode
+1.2 -> File Seperation
+1.3 -> Added Font and background color
