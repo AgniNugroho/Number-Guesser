@@ -1,6 +1,7 @@
 import random as r
 import os
 import menu
+import time as t
 
 def play():
     os.system('cls')
@@ -85,4 +86,9 @@ def diff():
     if d == 2:
         playhard()
     if d == 3:
-        custom()    
+        custom()
+    else:
+        print('Input tidak Valid!')
+        t.sleep(1.9)
+        os.system('cls')
+        diff()

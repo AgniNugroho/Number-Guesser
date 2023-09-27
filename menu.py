@@ -1,16 +1,20 @@
 import core
 import os
+import time as t
 
 def end():
     print('\n1. Main Lagi\n2. Keluar\n3. Menu Utama')
-    end = int(input('> '))
-    if end == 1:
+    inp = int(input('> '))
+    if int == 1:
         core.diff()
-    if end == 2:
+    if int == 2:
         exit()
-    if end == 3:
+    if int == 3:
         mainmenu()
-
+    else:
+        print('Input tidak valid!')
+        t.sleep(1.9)
+        end()
 
 def exit():
     os.system('cls')
@@ -35,6 +39,10 @@ def mainmenu():
         options()
     if menu == 4:
         exit()
+    else:
+        print('Input tidak valid!')
+        t.sleep(1.9)
+        mainmenu()
 
 def helpmenu():
     print('\n1. Menu Utama\n2. Main\n3. Keluar')
@@ -45,6 +53,10 @@ def helpmenu():
         core.diff()
     if hp == 3:
         exit()
+    else:
+        print('Input tidak valid!')
+        t.sleep(1.9)
+        helpmenu()
 
 def options():
     os.system('cls')
@@ -55,6 +67,10 @@ def options():
         fontcolor()
     if inp == 9:
         mainmenu()
+    else:
+        print('Input tidak valid!')
+        t.sleep(1.9)
+        options()
 
 def fontcolor():
     os.system('cls')
