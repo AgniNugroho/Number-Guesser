@@ -14,6 +14,7 @@ def end():
     else:
         print('Input tidak valid!')
         t.sleep(1.9)
+        os.system('cls')
         end()
 
 def exit():
@@ -56,6 +57,8 @@ def helpmenu():
     else:
         print('Input tidak valid!')
         t.sleep(1.9)
+        os.system('cls')
+        help()
         helpmenu()
 
 def options():
@@ -70,6 +73,7 @@ def options():
     else:
         print('Input tidak valid!')
         t.sleep(1.9)
+        os.system('cls')
         options()
 
 def fontcolor():
