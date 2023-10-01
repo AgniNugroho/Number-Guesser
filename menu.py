@@ -5,11 +5,11 @@ import time as t
 def end():
     print('\n1. Main Lagi\n2. Keluar\n3. Menu Utama')
     inp = int(input('> '))
-    if int == 1:
+    if inp == 1:
         core.diff()
-    if int == 2:
+    if inp == 2:
         exit()
-    if int == 3:
+    if inp == 3:
         mainmenu()
     else:
         print('Input tidak valid!')
